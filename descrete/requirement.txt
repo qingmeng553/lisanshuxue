@@ -1,0 +1,12 @@
+# ======== 后端 ========
+Django==3.2.25
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+django-cors-headers==4.3.1
+
+# ======== 数据库 ========
+# 生产可换 PostgreSQL，开发用自带 sqlite3 无需额外包
+# psycopg2-binary==2.9.9
+
+# ======== 工具 ========
+python-decouple==3.8        # 若用 .env 配置
